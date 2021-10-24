@@ -1,0 +1,16 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node dist/src/index.js"
+  },
+  "dependencies": {
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/node": "^16.11.4"
+  }
+}
